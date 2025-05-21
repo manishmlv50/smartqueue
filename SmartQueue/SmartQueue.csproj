@@ -8,7 +8,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>SmartQueue</PackageId>
-    <Version>1.0.4</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.5</Version>
     <Authors>Manish Malviya</Authors>
     <Company>RapidCircle</Company>
     <Description>A configurable multi-consumer smart queue wrapper with CPU throttling and metrics support for .NET 8.</Description>
@@ -22,6 +23,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
