@@ -12,7 +12,7 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <EnableSourceLink>true</EnableSourceLink>
-    <Version>1.0.6</Version>
+    <Version>1.0.9</Version>
     <Authors>Manish Malviya</Authors>
     <Company>RapidCircle</Company>
     <Description>A configurable multi-consumer smart queue wrapper with CPU throttling and metrics support for .NET 8.</Description>
