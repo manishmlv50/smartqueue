@@ -1,4 +1,4 @@
-﻿# SmartQueueDotNet v1.0.3 Release Notes
+﻿# SmartQueueDotNet v1.0.4 Release Notes
 
 ## Overview
 
