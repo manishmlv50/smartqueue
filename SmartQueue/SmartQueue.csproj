@@ -6,6 +6,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SmartQueue</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Manish Malviya</Authors>
+    <Company>RapidCircle</Company>
+    <Description>A configurable multi-consumer smart queue wrapper with CPU throttling and metrics support for .NET 8.</Description>
+    <PackageTags>queue;concurrency;dotnet8;logging;metrics</PackageTags>
+    <RepositoryUrl>https://github.com/manishmlv50/smartqueue</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/manishmlv50/smartqueue</PackageProjectUrl>
+    <IncludeSymbols>true</IncludeSymbols>
   </PropertyGroup>
 
   <ItemGroup>
