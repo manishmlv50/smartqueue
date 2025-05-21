@@ -1,8 +1,8 @@
-﻿# SmartQueueDotNet v1.0.6 Release Notes
+﻿# SmartQueue v1.0.6 Release Notes
 
 ## Overview
 
-SmartQueueDotNet is a robust, configurable queue processing library for .NET 8 designed to handle complex scenarios involving multiple consumer groups, batch processing, CPU-based throttling, and metrics integration. It provides a flexible, leak-proof queue abstraction suitable for scenarios requiring concurrent processing and dynamic load management.
+SmartQueue is a robust, configurable queue processing library for .NET 8 designed to handle complex scenarios involving multiple consumer groups, batch processing, CPU-based throttling, and metrics integration. It provides a flexible, leak-proof queue abstraction suitable for scenarios requiring concurrent processing and dynamic load management.
 
 ## Features
 
@@ -19,7 +19,7 @@ SmartQueueDotNet is a robust, configurable queue processing library for .NET 8 d
 
 ## Use Cases
 
-SmartQueueDotNet can be used in:
+SmartQueue can be used in:
 
 - Background task processing in microservices and API backends
 - Event-driven processing pipelines with multiple subscribers
@@ -45,4 +45,4 @@ See the included demo console app in the solution that implements a user registr
 
 ---
 
-Thank you for trying SmartQueueDotNet! Feedback and contributions are welcome.
+Thank you for trying SmartQueue! Feedback and contributions are welcome.
