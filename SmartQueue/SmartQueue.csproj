@@ -9,6 +9,9 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>SmartQueue</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <EnableSourceLink>true</EnableSourceLink>
     <Version>1.0.6</Version>
     <Authors>Manish Malviya</Authors>
     <Company>RapidCircle</Company>
@@ -18,6 +21,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/manishmlv50/smartqueue</PackageProjectUrl>
     <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <Deterministic>true</Deterministic>
+    <Optimize>true</Optimize>
+    <DebugType>portable</DebugType>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,6 +35,7 @@
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="" />
+    <None Include="LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
