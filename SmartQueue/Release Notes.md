@@ -1,4 +1,4 @@
-﻿# SmartQueue v1.0.6 Release Notes
+﻿# SmartQueue v1.0.9 Release Notes
 
 ## Overview
 
