@@ -9,7 +9,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>SmartQueue</PackageId>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <Authors>Manish Malviya</Authors>
     <Company>RapidCircle</Company>
     <Description>A configurable multi-consumer smart queue wrapper with CPU throttling and metrics support for .NET 8.</Description>
@@ -26,9 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="README.md">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
