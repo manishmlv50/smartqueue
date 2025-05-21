@@ -1,0 +1,31 @@
+name: Publish SmartQueueDotNet NuGet Package
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' # e.g., v1.0.0
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ secrets.DOTNET_VERSION || '8.0.x' }}
+
+      - name: Restore dependencies
+        run: dotnet restore SmartQueue/SmartQueue.csproj
+
+      - name: Build library
+        run: dotnet build SmartQueue/SmartQueue.csproj --configuration Release --no-restore
+
+      - name: Pack NuGet package
+        run: dotnet pack SmartQueue/SmartQueue.csproj --configuration Release --no-build --output ./nupkg
+
+      - name: Publish to NuGet
+        run: dotnet nuget push ./nupkg/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
