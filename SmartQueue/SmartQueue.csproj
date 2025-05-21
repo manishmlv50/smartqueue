@@ -8,7 +8,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>SmartQueue</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>Manish Malviya</Authors>
     <Company>RapidCircle</Company>
     <Description>A configurable multi-consumer smart queue wrapper with CPU throttling and metrics support for .NET 8.</Description>
